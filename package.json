@@ -1,0 +1,33 @@
+{
+  "name": "datapager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@observablehq/plot": "^0.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-grid-layout": "^1.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6",
+    "@testing-library/react": "^16",
+    "@testing-library/user-event": "^14",
+    "@vitejs/plugin-react": "^4",
+    "@vitest/coverage-v8": "^3",
+    "autoprefixer": "^10",
+    "jsdom": "^25",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "vite": "^6",
+    "vitest": "^3"
+  }
+}

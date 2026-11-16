@@ -1,0 +1,89 @@
+# TCIA Histopathology Cohort Builder
+#
+# Image-level metadata for every pathology image in The Cancer Imaging Archive's
+# PathDB (cohort_builder_v1, 2024-01-16 export, refreshed by TCIA since).
+#
+# To regenerate:
+#   python fetch_tcia_pathology.py
+#   python generate.py \
+#     --input  data/tcia-pathology.parquet \
+#     --config configs/tcia-pathology.yaml \
+#     --output ../../public/config/tcia-pathology-mdhist.json
+
+meta:
+  name: "TCIA Histopathology Collections"
+  description: >
+    Image-level metadata for public pathology collections in The Cancer Imaging
+    Archive (whole-slide images, TMAs, cytomorphology, multiplex and hyperspectral
+    imaging). One record per image; a per-patient flag gives distinct patient counts.
+  source_url: "https://pathdb.cancerimagingarchive.net/system/files/collectionmetadata/202401/cohort_builder_v1_01-16-2024.csv"
+  cube_type: "sparse_full"
+  data_access:
+    method: text
+    instructions: >
+      Public metadata from TCIA PathDB; images are downloadable per collection
+      from cancerimagingarchive.net (see each collection's DOI).
+
+dimensions:
+  - field: collection
+    label: "Collection"
+    type: categorical
+  - field: cancer_type
+    label: "Cancer Type"
+    type: categorical
+  - field: cancer_location
+    label: "Cancer Location"
+    type: categorical
+  - field: species
+    label: "Species"
+    type: categorical
+  - field: modality
+    label: "Image Type"
+    type: categorical
+    description: "Capitalisation variants merged (e.g. 'Whole slide image' → 'Whole Slide Image')"
+  - field: stain
+    label: "Stain / Protocol"
+    type: categorical
+    description: "Spelling variants merged; individual IHC markers kept"
+  - field: data_format
+    label: "Data Format"
+    type: categorical
+  - field: magnification
+    label: "Magnification"
+    type: ordinal
+    values: ["10x", "20x", "40x", "82.44x", "100x", "1000x", "Not reported"]
+  - field: resolution
+    label: "Pixel Size"
+    type: ordinal
+    values: ["< 0.15 µm", "0.15–0.30 µm", "0.30–0.45 µm", "≥ 0.45 µm", "Not reported"]
+    description: "Binned from the 'par' column (microns per pixel)"
+  - field: has_radiology
+    label: "Has Radiology"
+    type: categorical
+    values: ["Yes", "No", "Not reported"]
+  - field: has_genomics
+    label: "Has Genomics"
+    type: categorical
+    values: ["Yes", "In progress", "No", "Not reported"]
+  - field: has_proteomics
+    label: "Has Proteomics"
+    type: categorical
+    values: ["Yes", "In progress", "No", "Not reported"]
+  - field: supporting_data
+    label: "Supporting Data"
+    type: categorical
+  - field: updated_year
+    label: "Last Updated"
+    type: ordinal
+
+measures:
+  - field: count
+    label: "Images"
+    type: count
+  - field: patients
+    label: "Patients"
+    type: sum
+    unit: "patients"
+
+k_anon: 0        # public metadata, no row-level PHI
+cell_limit: 50000

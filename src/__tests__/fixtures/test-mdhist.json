@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "name": "SilverCare Registry",
+    "description": "Test fixture: synthetic elderly patient cohort with k-anon suppression.",
+    "total_records": 1120,
+    "generated_at": "2026-05-28",
+    "version": "1.0",
+    "cube_type": "sparse_full"
+  },
+  "dimensions": [
+    {
+      "field": "gender",
+      "label": "Gender",
+      "type": "categorical",
+      "values": ["M", "F", "Other"]
+    },
+    {
+      "field": "age_group",
+      "label": "Age Group",
+      "type": "ordinal",
+      "values": ["65-74", "75-84", "85+"]
+    },
+    {
+      "field": "condition",
+      "label": "Condition",
+      "type": "categorical",
+      "values": ["diabetes", "hypertension", "both", "neither"]
+    }
+  ],
+  "measures": [
+    { "field": "count", "label": "Patients", "type": "count" },
+    { "field": "visit_days", "label": "Visit Days", "type": "sum", "unit": "days" }
+  ],
+  "cells": [
+    { "gender": "M", "age_group": "65-74", "condition": "diabetes",     "count": 70,  "visit_days": 350 },
+    { "gender": "M", "age_group": "65-74", "condition": "hypertension", "count": 65,  "visit_days": 260 },
+    { "gender": "M", "age_group": "65-74", "condition": "both",         "count": 55,  "visit_days": 330 },
+    { "gender": "M", "age_group": "65-74", "condition": "neither",      "count": 30,  "visit_days": 60  },
+    { "gender": "M", "age_group": "75-84", "condition": "diabetes",     "count": 60,  "visit_days": 360 },
+    { "gender": "M", "age_group": "75-84", "condition": "hypertension", "count": 55,  "visit_days": 220 },
+    { "gender": "M", "age_group": "75-84", "condition": "both",         "count": 45,  "visit_days": 315 },
+    { "gender": "M", "age_group": "75-84", "condition": "neither",      "count": 22,  "visit_days": 44  },
+    { "gender": "M", "age_group": "85+",   "condition": "diabetes",     "count": 35,  "visit_days": 245 },
+    { "gender": "M", "age_group": "85+",   "condition": "hypertension", "count": 40,  "visit_days": 200 },
+    { "gender": "M", "age_group": "85+",   "condition": "both",         "count": 30,  "visit_days": 270 },
+    { "gender": "M", "age_group": "85+",   "condition": "neither",      "count": 13,  "visit_days": 26  },
+    { "gender": "F", "age_group": "65-74", "condition": "diabetes",     "count": 75,  "visit_days": 375 },
+    { "gender": "F", "age_group": "65-74", "condition": "hypertension", "count": 80,  "visit_days": 320 },
+    { "gender": "F", "age_group": "65-74", "condition": "both",         "count": 65,  "visit_days": 390 },
+    { "gender": "F", "age_group": "65-74", "condition": "neither",      "count": 25,  "visit_days": 50  },
+    { "gender": "F", "age_group": "75-84", "condition": "diabetes",     "count": 65,  "visit_days": 390 },
+    { "gender": "F", "age_group": "75-84", "condition": "hypertension", "count": 70,  "visit_days": 350 },
+    { "gender": "F", "age_group": "75-84", "condition": "both",         "count": 55,  "visit_days": 385 },
+    { "gender": "F", "age_group": "75-84", "condition": "neither",      "count": 18,  "visit_days": 36  },
+    { "gender": "F", "age_group": "85+",   "condition": "diabetes",     "count": 30,  "visit_days": 210 },
+    { "gender": "F", "age_group": "85+",   "condition": "hypertension", "count": 50,  "visit_days": 250 },
+    { "gender": "F", "age_group": "85+",   "condition": "both",         "count": 40,  "visit_days": 360 },
+    { "gender": "F", "age_group": "85+",   "condition": "neither",      "count": 12,  "visit_days": 24  }
+  ],
+  "totals": {
+    "count": 1120,
+    "visit_days": 5820
+  }
+}

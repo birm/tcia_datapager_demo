@@ -1,0 +1,827 @@
+{
+ "BASE_URL": "https://pathdb.cancerimagingarchive.net/eaglescope/dist/",
+ "CONFIG_URL": "/system/files/collectionmetadata/202401/cohort_builder_01-27-2024.json",
+ "FIELDS": {
+  "collection": {
+   "id": "collection",
+   "title": "TCIA Collection",
+   "field": "collection",
+   "values": {
+    "AML-Cytomorphology_LMU": [
+     "AML-Cytomorphology_LMU"
+    ],
+    "AML-Cytomorphology_MLL_Helmholtz": [
+     "AML-Cytomorphology_MLL_Helmholtz"
+    ],
+    "AURORA-Metastatic-Breast-Multiomics": [
+     "AURORA-Metastatic-Breast-Multiomics"
+    ],
+    "Bone-Marrow-Cytomorphology": [
+     "Bone-Marrow-Cytomorphology"
+    ],
+    "Brain-Mets-Lung-MRI-Path-Segs": [
+     "Brain-Mets-Lung-MRI-Path-Segs"
+    ],
+    "C-NMC 2019": [
+     "C-NMC 2019"
+    ],
+    "CATCH": [
+     "CATCH"
+    ],
+    "CMB-AML": [
+     "CMB-AML"
+    ],
+    "CMB-BRCA": [
+     "CMB-BRCA"
+    ],
+    "CMB-CRC": [
+     "CMB-CRC"
+    ],
+    "CMB-GEC": [
+     "CMB-GEC"
+    ],
+    "CMB-LCA": [
+     "CMB-LCA"
+    ],
+    "CMB-MEL": [
+     "CMB-MEL"
+    ],
+    "CMB-MML": [
+     "CMB-MML"
+    ],
+    "CMB-OV": [
+     "CMB-OV"
+    ],
+    "CMB-PCA": [
+     "CMB-PCA"
+    ],
+    "CODEX imaging of HCC": [
+     "CODEX imaging of HCC"
+    ],
+    "CPTAC-AML": [
+     "CPTAC-AML"
+    ],
+    "CPTAC-BRCA": [
+     "CPTAC-BRCA"
+    ],
+    "CPTAC-CCRCC": [
+     "CPTAC-CCRCC"
+    ],
+    "CPTAC-CM": [
+     "CPTAC-CM"
+    ],
+    "CPTAC-COAD": [
+     "CPTAC-COAD"
+    ],
+    "CPTAC-GBM": [
+     "CPTAC-GBM"
+    ],
+    "CPTAC-Glioblastoma-CODEX": [
+     "CPTAC-Glioblastoma-CODEX"
+    ],
+    "CPTAC-HNSCC": [
+     "CPTAC-HNSCC"
+    ],
+    "CPTAC-LSCC": [
+     "CPTAC-LSCC"
+    ],
+    "CPTAC-LUAD": [
+     "CPTAC-LUAD"
+    ],
+    "CPTAC-OV": [
+     "CPTAC-OV"
+    ],
+    "CPTAC-PDA": [
+     "CPTAC-PDA"
+    ],
+    "CPTAC-SAR": [
+     "CPTAC-SAR"
+    ],
+    "CPTAC-STAD": [
+     "CPTAC-STAD"
+    ],
+    "CPTAC-UCEC": [
+     "CPTAC-UCEC"
+    ],
+    "CPTAC-non-CCRCC": [
+     "CPTAC-non-CCRCC"
+    ],
+    "CRC_FFPE-CODEX_CellNeighs": [
+     "CRC_FFPE-CODEX_CellNeighs"
+    ],
+    "DLBCL-Morphology": [
+     "DLBCL-Morphology"
+    ],
+    "FHCC PTRC-Melanoma": [
+     "FHCC PTRC-Melanoma"
+    ],
+    "HANCOCK": [
+     "HANCOCK"
+    ],
+    "HE-vs-MPM": [
+     "HE-vs-MPM"
+    ],
+    "HER2 tumor ROIs": [
+     "HER2 tumor ROIs"
+    ],
+    "HNSCC-mIF-mIHC-comparison": [
+     "HNSCC-mIF-mIHC-comparison"
+    ],
+    "HistologyHSI-BC-Recurrence": [
+     "HistologyHSI-BC-Recurrence"
+    ],
+    "HistologyHSI-GB": [
+     "HistologyHSI-GB"
+    ],
+    "Hungarian-Colorectal-Screening": [
+     "Hungarian-Colorectal-Screening"
+    ],
+    "ICDC-Glioma": [
+     "ICDC-Glioma"
+    ],
+    "Lung-Fused-CT-Pathology": [
+     "Lung-Fused-CT-Pathology"
+    ],
+    "MiMM_SBILab": [
+     "MiMM_SBILab"
+    ],
+    "NADT-Prostate": [
+     "NADT-Prostate"
+    ],
+    "NLST": [
+     "NLST"
+    ],
+    "Osteosarcoma-Tumor-Assessment": [
+     "Osteosarcoma-Tumor-Assessment"
+    ],
+    "Ovarian Bevacizumab Response": [
+     "Ovarian Bevacizumab Response"
+    ],
+    "PCa_Bx_3Dpathology": [
+     "PCa_Bx_3Dpathology"
+    ],
+    "PROSTATE-MRI": [
+     "PROSTATE-MRI"
+    ],
+    "PTRC-HGSOC": [
+     "PTRC-HGSOC"
+    ],
+    "Post-NAT-BRCA": [
+     "Post-NAT-BRCA"
+    ],
+    "Prostate Fused-MRI-Pathology": [
+     "Prostate Fused-MRI-Pathology"
+    ],
+    "SLN-Breast": [
+     "SLN-Breast"
+    ],
+    "SN-AM": [
+     "SN-AM"
+    ],
+    "TP53-Precursor-Lesions": [
+     "TP53-Precursor-Lesions"
+    ],
+    "UPENN-GBM": [
+     "UPENN-GBM"
+    ]
+   }
+  },
+  "species": {
+   "id": "species",
+   "title": "Species",
+   "field": "species",
+   "values": {
+    "Canine": [
+     "Canine"
+    ],
+    "Human": [
+     "Human"
+    ]
+   }
+  },
+  "cancer_type": {
+   "id": "cancer_type",
+   "title": "Cancer Type",
+   "field": "cancer_type",
+   "values": {
+    "Acute Myeloid Leukemia": [
+     "Acute Myeloid Leukemia"
+    ],
+    "Adenocarcinoma": [
+     "Adenocarcinoma"
+    ],
+    "Breast": [
+     "Breast"
+    ],
+    "Clear Cell Carcinoma": [
+     "Clear Cell Carcinoma"
+    ],
+    "Colon": [
+     "Colon"
+    ],
+    "Colorectal": [
+     "Colorectal"
+    ],
+    "Cutaneous Melanoma": [
+     "Cutaneous Melanoma"
+    ],
+    "Diffuse Large B-Cell Lymphoma": [
+     "Diffuse Large B-Cell Lymphoma"
+    ],
+    "Ductal Adenocarcinoma": [
+     "Ductal Adenocarcinoma"
+    ],
+    "Gastroesophageal": [
+     "Gastroesophageal"
+    ],
+    "Glioblastoma": [
+     "Glioblastoma"
+    ],
+    "Glioma": [
+     "Glioma"
+    ],
+    "HER2+ Breast": [
+     "HER2+ Breast"
+    ],
+    "Head and Neck": [
+     "Head and Neck"
+    ],
+    "Head and Neck Squamous Cell Carcinoma": [
+     "Head and Neck Squamous Cell Carcinoma"
+    ],
+    "Hepatocellular Carcinoma": [
+     "Hepatocellular Carcinoma"
+    ],
+    "High grade serous ovarian": [
+     "High grade serous ovarian"
+    ],
+    "Invasive Breast Carcinoma": [
+     "Invasive Breast Carcinoma"
+    ],
+    "Leukemia": [
+     "Leukemia"
+    ],
+    "Leukemia & Lymphoma": [
+     "Leukemia & Lymphoma"
+    ],
+    "Leukemia & Multiple Myeloma": [
+     "Leukemia & Multiple Myeloma"
+    ],
+    "Lung": [
+     "Lung"
+    ],
+    "Melanoma": [
+     "Melanoma"
+    ],
+    "Metastatic": [
+     "Metastatic"
+    ],
+    "Metastatic Melanoma": [
+     "Metastatic Melanoma"
+    ],
+    "Multiple Myeloma": [
+     "Multiple Myeloma"
+    ],
+    "Non-Cancer": [
+     "Non-Cancer"
+    ],
+    "Non-Clear Cell Renal Cell Carcinoma": [
+     "Non-Clear Cell Renal Cell Carcinoma"
+    ],
+    "Osteosarcoma": [
+     "Osteosarcoma"
+    ],
+    "Ovarian": [
+     "Ovarian"
+    ],
+    "Ovarian Carcinoma": [
+     "Ovarian Carcinoma"
+    ],
+    "Primary and Metastatic Breast": [
+     "Primary and Metastatic Breast"
+    ],
+    "Prostate": [
+     "Prostate"
+    ],
+    "Sarcomas": [
+     "Sarcomas"
+    ],
+    "Skin": [
+     "Skin"
+    ],
+    "Squamous Cell Carcinoma": [
+     "Squamous Cell Carcinoma"
+    ],
+    "Stomach Adenocarcinoma": [
+     "Stomach Adenocarcinoma"
+    ],
+    "Uterine Corpus Endometrial Carcinoma": [
+     "Uterine Corpus Endometrial Carcinoma"
+    ]
+   }
+  },
+  "cancer_location": {
+   "id": "cancer_location",
+   "title": "Cancer Location",
+   "field": "cancer_location",
+   "values": {
+    "Blood": [
+     "Blood"
+    ],
+    "Blood & Bone": [
+     "Blood & Bone"
+    ],
+    "Bone": [
+     "Bone"
+    ],
+    "Bone Marrow": [
+     "Bone Marrow"
+    ],
+    "Brain": [
+     "Brain"
+    ],
+    "Breast": [
+     "Breast"
+    ],
+    "CUP": [
+     "CUP"
+    ],
+    "CUP, Hypopharynx, Larynx, Oral Cavity, Oropharynx": [
+     "CUP, Hypopharynx,  Larynx, Oral Cavity, Oropharynx"
+    ],
+    "Chest": [
+     "Chest"
+    ],
+    "Colon": [
+     "Colon"
+    ],
+    "Esophagus": [
+     "Esophagus"
+    ],
+    "Fallopian tube": [
+     "Fallopian tube"
+    ],
+    "Head": [
+     "Head"
+    ],
+    "Head-Neck": [
+     "Head-Neck"
+    ],
+    "Hypopharynx": [
+     "Hypopharynx"
+    ],
+    "Hypopharynx, Oropharynx": [
+     "Hypopharynx, Oropharynx"
+    ],
+    "Hypopharynx, Oropharynx, Larynx": [
+     "Hypopharynx, Oropharynx, Larynx"
+    ],
+    "Hypopharynx, Oropharynx, Oral Cavity": [
+     "Hypopharynx, Oropharynx, Oral Cavity"
+    ],
+    "Kidney": [
+     "Kidney"
+    ],
+    "Larynx": [
+     "Larynx"
+    ],
+    "Larynx, Hypopharynx, Oropharynx, CUP": [
+     "Larynx, Hypopharynx, Oropharynx, CUP"
+    ],
+    "Larynx, Oral Cavity": [
+     "Larynx, Oral Cavity"
+    ],
+    "Larynx, Oropharynx": [
+     "Larynx, Oropharynx"
+    ],
+    "Larynx, Oropharynx, Hypopharynx, Oral Cavity": [
+     "Larynx, Oropharynx, Hypopharynx, Oral Cavity"
+    ],
+    "Larynx, Oropharynx, Oral Cavity": [
+     "Larynx, Oropharynx, Oral Cavity"
+    ],
+    "Liver": [
+     "Liver"
+    ],
+    "Lung": [
+     "Lung"
+    ],
+    "Lymph Node": [
+     "Lymph Node"
+    ],
+    "Marrow": [
+     "Marrow"
+    ],
+    "Not reported": [
+     ""
+    ],
+    "Oral Cavity": [
+     "Oral Cavity"
+    ],
+    "Oropharynx": [
+     "Oropharynx"
+    ],
+    "Ovary": [
+     "Ovary"
+    ],
+    "Pancreas": [
+     "Pancreas"
+    ],
+    "Prostate": [
+     "Prostate"
+    ],
+    "Skin": [
+     "Skin"
+    ],
+    "Stomach": [
+     "Stomach"
+    ],
+    "Uterus Endometrium": [
+     "Uterus Endometrium"
+    ],
+    "Various": [
+     "Various"
+    ]
+   }
+  },
+  "modality": {
+   "id": "modality",
+   "title": "Image Type or Modality",
+   "field": "modality",
+   "values": {
+    "CODEX": [
+     "CODEX"
+    ],
+    "Hyperspectral imaging": [
+     "Hyperspectral imaging"
+    ],
+    "Microscopic Image": [
+     "Microscopic Image"
+    ],
+    "Multispectral Imaging": [
+     "Multispectral Imaging"
+    ],
+    "Open-top light-sheet": [
+     "OTLS microscope image"
+    ],
+    "Photomicrograph": [
+     "Photomicrograph"
+    ],
+    "Single-cell image": [
+     "Single-cell image"
+    ],
+    "TMA + WSI": [
+     "Tissue Microarray, Whole slide image"
+    ],
+    "Tissue Microarray": [
+     "Tissue Microarray"
+    ],
+    "WSI (multiphoton)": [
+     "Whole slide image, multiphoton"
+    ],
+    "Whole Mount + LMD": [
+     "Whole Mount Tissue & laser microdisection"
+    ],
+    "Whole Mount Tissue": [
+     "Whole Mount Tissue"
+    ],
+    "Whole Slide Image": [
+     "Whole Slide Image",
+     "Whole slide image"
+    ]
+   }
+  },
+  "stain": {
+   "id": "protocol",
+   "title": "Staining Protocol",
+   "field": "protocol",
+   "values": {
+    "H&E": [
+     "Hematoxylin and Eosin",
+     "Hematoxylin and eosin"
+    ],
+    "IHC (+/- H&E)": [
+     "Immunohistochemistry ",
+     "Immunohistochemistry, Hematoxylin and eosin"
+    ],
+    "IHC: CD163": [
+     "CD163"
+    ],
+    "IHC: CD3": [
+     "CD3"
+    ],
+    "IHC: CD56": [
+     "CD56"
+    ],
+    "IHC: CD68": [
+     "CD68"
+    ],
+    "IHC: CD8": [
+     "CD8"
+    ],
+    "IHC: KI67": [
+     "Ki67"
+    ],
+    "IHC: MHC1": [
+     "MHC1"
+    ],
+    "IHC: PD-L1": [
+     "PDL1"
+    ],
+    "IHC: TP53": [
+     "TP53"
+    ],
+    "Immunofluorescence": [
+     "Immunofluorescence",
+     "Immunofluorescence "
+    ],
+    "Jenner-Giemsa": [
+     "Jenner-Giemsa"
+    ],
+    "May-Grunwald-Giemsa": [
+     "May-Grunwald-Giemsa"
+    ],
+    "Multiplex IF/IHC": [
+     "Immunohistochemistry, CODEX, Hematoxylin and eosin",
+     "Multiplex immunofluorescence",
+     "Multiplex immunofluorescence assay, Multiplex immunohistochemistry assay"
+    ],
+    "Not reported": [
+     "N/A"
+    ],
+    "Toluidine-eosin": [
+     "Toluidine-eosin "
+    ]
+   }
+  },
+  "data_format": {
+   "id": "data_format",
+   "title": "Data Format",
+   "field": "data_format",
+   "values": {
+    "BMP": [
+     "BMP"
+    ],
+    "ENVI": [
+     "ENVI"
+    ],
+    "HDF5, TIFF": [
+     "HDF5, TIFF"
+    ],
+    "JPG": [
+     "JPG"
+    ],
+    "MRXS": [
+     "MRXS"
+    ],
+    "NDPI": [
+     "NDPI"
+    ],
+    "OME-TIFF": [
+     "OME-TIFF"
+    ],
+    "PNG": [
+     "PNG"
+    ],
+    "SCN": [
+     "SCN"
+    ],
+    "SVS": [
+     "SVS"
+    ],
+    "TIFF": [
+     "TIFF"
+    ]
+   }
+  },
+  "magnification": {
+   "id": "magnification",
+   "title": "Magnification",
+   "field": "magnification",
+   "values": {
+    "1000x": [
+     "1000x"
+    ],
+    "100x": [
+     "100x"
+    ],
+    "10x": [
+     "10x"
+    ],
+    "20x": [
+     "20x"
+    ],
+    "40x": [
+     "40x"
+    ],
+    "82.44x": [
+     "82.44x"
+    ],
+    "Not reported": [
+     "N/A"
+    ]
+   }
+  },
+  "has_radiology": {
+   "id": "has_radiology",
+   "title": "Has Radiology",
+   "field": "has_radiology",
+   "values": {
+    "No": [
+     "no"
+    ],
+    "Not reported": [
+     "Not Reported"
+    ],
+    "Yes": [
+     "yes"
+    ]
+   }
+  },
+  "has_genomics": {
+   "id": "has_genomics",
+   "title": "Has Genomics",
+   "field": "has_genomics",
+   "values": {
+    "In progress": [
+     "In Progress"
+    ],
+    "No": [
+     "no"
+    ],
+    "Not reported": [
+     "Not Reported"
+    ],
+    "Yes": [
+     "yes"
+    ]
+   }
+  },
+  "has_proteomics": {
+   "id": "has_proteomics",
+   "title": "Has Proteomics",
+   "field": "has_proteomics",
+   "values": {
+    "In progress": [
+     "In Progress"
+    ],
+    "No": [
+     "no"
+    ],
+    "Not reported": [
+     "Not Reported"
+    ],
+    "Yes": [
+     "yes"
+    ]
+   }
+  },
+  "supporting_data": {
+   "id": "supporting_data_type",
+   "title": "Supporting Data",
+   "field": "supporting_data_type",
+   "values": {
+    "Clinical": [
+     "Clinical"
+    ],
+    "Clinical, Genomics, Proteomics": [
+     "Clinical, Genomics, Proteomics"
+    ],
+    "Clinical, Proteomics": [
+     "Clinical, Proteomics"
+    ],
+    "Clinical, Software/Source Code": [
+     "Clinical, Software/Source Code"
+    ],
+    "Image Analyses": [
+     "Image Analyses"
+    ],
+    "Image Analyses, Clinical": [
+     "Image Analyses, Clinical"
+    ],
+    "None": [
+     "N/A"
+    ]
+   }
+  },
+  "resolution": {
+   "id": "par",
+   "title": "Pixel Size",
+   "field": "par",
+   "values": {
+    "0.15–0.30 µm": [
+     "(0.172,0.172)mpp",
+     "(0.187,0.187)mpp",
+     "(0.23, 0.23)mpp",
+     "(0.230,0.230)mpp",
+     "(0.246,0.246)mpp",
+     "(0.250,0.250)mpp",
+     "(0.251,0.251)mpp",
+     "(0.252, 0.252)mpp",
+     "(0.252,0.252)mpp",
+     "(0.253,0.253)mpp",
+     "(0.254,0.254)mpp",
+     "(0.290,0.290)mpp",
+     "0.274",
+     "0.275"
+    ],
+    "0.30–0.45 µm": [
+     "(0.377,0.377)mpp"
+    ],
+    "< 0.15 µm": [
+     "(0.027,0.020)mpp",
+     "(0.086,0.086)mpp",
+     "(0.121,0.121)mpp"
+    ],
+    "Not reported": [
+     "N/A",
+     "NA"
+    ],
+    "≥ 0.45 µm": [
+     "(0.453,0.453)mpp",
+     "(0.494,0.494)mpp",
+     "(0.496,0.496)mpp",
+     "(0.499,0.499)mpp",
+     "(0.500,0.500)mpp",
+     "(0.501,0.501)mpp",
+     "(0.502,0.502)mpp",
+     "(0.510,0.510)mpp",
+     "(0.525,0.525)mpp",
+     "0.4965"
+    ]
+   }
+  },
+  "updated_year": {
+   "id": "update",
+   "title": "Last Updated",
+   "field": "update",
+   "values": {
+    "2011": [
+     "2011-06-30"
+    ],
+    "2016": [
+     "2016-11-30"
+    ],
+    "2019": [
+     "2019-03-26",
+     "2019-05-28",
+     "2019-09-30",
+     "2019-10-28",
+     "2019-11-15"
+    ],
+    "2020": [
+     "2020-01-09",
+     "2020-04-09",
+     "2020-06-30"
+    ],
+    "2021": [
+     "2021-01-09",
+     "2021-01-23",
+     "2021-02-02",
+     "2021-02-04",
+     "2021-02-11",
+     "2021-03-04",
+     "2021-09-24",
+     "2021-12-06",
+     "2021-12-17"
+    ],
+    "2022": [
+     "2022-01-13",
+     "2022-04-28",
+     "2022-08-03",
+     "2022-10-24"
+    ],
+    "2023": [
+     "2023-03-17",
+     "2023-05-10",
+     "2023-05-30",
+     "2023-08-03",
+     "2023-08-31",
+     "2023-10-13",
+     "2023-12-08"
+    ],
+    "2024": [
+     "2024-05-10",
+     "2024-05-24",
+     "2024-07-19"
+    ],
+    "2025": [
+     "2025-04-15",
+     "2025-08-01",
+     "2025-08-22",
+     "2025-09-30",
+     "2025-10-21",
+     "2025-12-12"
+    ],
+    "2026": [
+     "2026-02-23",
+     "2026-03-12",
+     "2026-05-27",
+     "2026-07-02",
+     "2026-10-21",
+     "2026-11-04"
+    ]
+   }
+  }
+ }
+}

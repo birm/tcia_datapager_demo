@@ -1,0 +1,161 @@
+{
+  "TITLE": "TCIA Histopathology Collections",
+  "SUBTITLE": "827,761 pathology images · 8,741 patients · 59 collections. Patient counts are exact for collection, cancer, image-type and linked-data filters; stain, format and magnification charts count images.",
+  "SOURCE_URL": "https://pathdb.cancerimagingarchive.net/system/files/collectionmetadata/202401/cohort_builder_v1_01-16-2024.csv",
+  "CUBE_URL": "./config/tcia-pathology-mdhist.json",
+  "EAGLESCOPE_MAP_URL": "./config/tcia-pathology-eaglescope.json",
+  "LINE_DATA_URL": null,
+  "FEASIBILITY_THRESHOLDS": [],
+  "UNIT_OF_GRID_VIEW": [280, 200],
+  "VISUALIZATION_VIEW_CONFIGURATION": [
+    {
+      "id": "hero",
+      "chartType": "HERO",
+      "title": "Selected Images",
+      "fields": { "primary_measure": "count", "secondary_measures": ["patients"] },
+      "size": [2, 2],
+      "priority": 100
+    },
+    {
+      "id": "collection",
+      "chartType": "DISTRIBUTION",
+      "title": "Collection · patients",
+      "fields": { "x": "collection", "y": "patients" },
+      "overlayMode": true,
+      "horizontal": true,
+      "size": [2, 4],
+      "priority": 99
+    },
+    {
+      "id": "cancer-type",
+      "chartType": "DISTRIBUTION",
+      "title": "Cancer Type · patients",
+      "fields": { "x": "cancer_type", "y": "patients" },
+      "overlayMode": true,
+      "horizontal": true,
+      "size": [2, 2],
+      "priority": 98
+    },
+    {
+      "id": "cancer-location",
+      "chartType": "DISTRIBUTION",
+      "title": "Cancer Location · patients",
+      "fields": { "x": "cancer_location", "y": "patients" },
+      "overlayMode": true,
+      "horizontal": true,
+      "size": [2, 2],
+      "priority": 97
+    },
+    {
+      "id": "modality",
+      "chartType": "DISTRIBUTION",
+      "title": "Image Type · patients",
+      "fields": { "x": "modality", "y": "patients" },
+      "overlayMode": true,
+      "horizontal": true,
+      "size": [2, 2],
+      "priority": 96
+    },
+    {
+      "id": "has-radiology",
+      "chartType": "DISTRIBUTION",
+      "title": "Has Radiology · patients",
+      "fields": { "x": "has_radiology", "y": "patients" },
+      "overlayMode": true,
+      "size": [1, 2],
+      "priority": 90
+    },
+    {
+      "id": "has-genomics",
+      "chartType": "DISTRIBUTION",
+      "title": "Has Genomics · patients",
+      "fields": { "x": "has_genomics", "y": "patients" },
+      "overlayMode": true,
+      "size": [1, 2],
+      "priority": 89
+    },
+    {
+      "id": "has-proteomics",
+      "chartType": "DISTRIBUTION",
+      "title": "Has Proteomics · patients",
+      "fields": { "x": "has_proteomics", "y": "patients" },
+      "overlayMode": true,
+      "size": [1, 2],
+      "priority": 88
+    },
+    {
+      "id": "species",
+      "chartType": "DISTRIBUTION",
+      "title": "Species · patients",
+      "fields": { "x": "species", "y": "patients" },
+      "overlayMode": true,
+      "size": [1, 2],
+      "priority": 87
+    },
+    {
+      "id": "stain",
+      "chartType": "DISTRIBUTION",
+      "title": "Stain / Protocol · images",
+      "fields": { "x": "stain", "y": "count" },
+      "overlayMode": true,
+      "horizontal": true,
+      "size": [2, 2],
+      "priority": 80
+    },
+    {
+      "id": "data-format",
+      "chartType": "DISTRIBUTION",
+      "title": "Data Format · images",
+      "fields": { "x": "data_format", "y": "count" },
+      "overlayMode": true,
+      "horizontal": true,
+      "size": [2, 2],
+      "priority": 79
+    },
+    {
+      "id": "magnification",
+      "chartType": "DISTRIBUTION",
+      "title": "Magnification · images",
+      "fields": { "x": "magnification", "y": "count" },
+      "overlayMode": true,
+      "size": [1, 2],
+      "priority": 70
+    },
+    {
+      "id": "resolution",
+      "chartType": "DISTRIBUTION",
+      "title": "Pixel Size · images",
+      "fields": { "x": "resolution", "y": "count" },
+      "overlayMode": true,
+      "size": [1, 2],
+      "priority": 69
+    },
+    {
+      "id": "supporting",
+      "chartType": "DISTRIBUTION",
+      "title": "Supporting Data · patients",
+      "fields": { "x": "supporting_data", "y": "patients" },
+      "overlayMode": true,
+      "horizontal": true,
+      "size": [2, 2],
+      "priority": 68
+    },
+    {
+      "id": "updated",
+      "chartType": "DISTRIBUTION",
+      "title": "Last Updated · patients",
+      "fields": { "x": "updated_year", "y": "patients" },
+      "overlayMode": true,
+      "size": [2, 2],
+      "priority": 60
+    },
+    {
+      "id": "genomics-proteomics",
+      "chartType": "CROSS_TAB",
+      "title": "Genomics × Proteomics · patients",
+      "fields": { "x": "has_genomics", "y": "has_proteomics", "value": "patients" },
+      "size": [2, 2],
+      "priority": 59
+    }
+  ]
+}
